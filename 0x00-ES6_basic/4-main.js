@@ -1,5 +1,3 @@
-/* eslint-disable import/extensions */
 import returnHowManyArguments from './4-rest-parameter.js';
-
-console.log(returnHowManyArguments('one'));
-console.log(returnHowManyArguments('one', 'two', 3, '4th'));
+console.log(returnHowManyArguments("One"));
+console.log(returnHowManyArguments("One", 2, "three", "4th"));
